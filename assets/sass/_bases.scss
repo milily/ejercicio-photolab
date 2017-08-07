@@ -122,9 +122,37 @@ body{
 		}
 	}
 }
+/* SUBSCRIBE TO OUR COMMUNITY */
 .fifth-section{
 	background-image: url("../../dist/img/bg2.jpg");
 	height: 700px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	.row{
+		div{
+			h2{
+				margin-top: 270px;
+				@include fuenteYcolor();
+			}
+		}
+		.input{
+			input{
+				width: 250px;
+				height: 50px;
+				position: relative;
+				left: 530px;
+				top: 10px;
+			}
+			span{
+				position: relative;
+				right: 530px;
+				top: 10px;
+				background-color: $verde;
+				border-color: $verde;
+				i{
+					color: $blanco;
+				}
+			}
+		}
+	}
 }
