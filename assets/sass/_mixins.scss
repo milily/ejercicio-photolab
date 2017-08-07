@@ -18,3 +18,8 @@
 	font-family: $font-archivo;
 	color: $verde;
 }
+@mixin pie{
+	font-family: $font-archivo;
+	color: $gris;
+	font-weight: bold;
+}

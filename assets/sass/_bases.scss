@@ -185,3 +185,23 @@ body{
 		}
 	}
 }
+/* FOOTER */
+footer{
+	background-color: $blanco;
+	.row{
+		div{
+			ul{
+				li{
+					a{
+						margin-left: 50px;
+						@include pie();
+					}
+				}
+				p{
+					margin-left: 65px;
+					@include pie();
+				}
+			}
+		}
+	}
+}
