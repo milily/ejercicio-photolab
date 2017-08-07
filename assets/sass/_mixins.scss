@@ -1,0 +1,9 @@
+@mixin container(){
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+@mixin fuenteYcolor(){
+	color: $blanco;
+	font-family: $font-archivo;
+}

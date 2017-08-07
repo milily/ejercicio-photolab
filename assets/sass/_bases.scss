@@ -5,15 +5,54 @@
 
 .first-section{
 	background-image: url("../../dist/img/bg1.jpg");
-	height: 600px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
+	height: 650px;
+	nav{
+		div{
+			div{
+				ul{
+					margin-left: 300px;
+					margin-top: 50px;
+					li{
+						a{
+							padding-left: 50px;
+							font-size: 20px;
+							font-weight: bold;
+							@include fuenteYcolor();
+						}
+					}
+				}
+			}
+		}
+	}
+	@include container();
+}
+/* YOUR LIFE, A PHOTO */
+.imagen-nav{
+	.row{
+		div{
+			h1{
+				font-weight: bold;
+				font-size: 40px;
+				margin-top: 250px;
+				@include fuenteYcolor();
+			}
+			h4{
+				font-weight: bold;
+				@include fuenteYcolor();
+			}
+			button{
+				background-color: $verde;
+				border-color: $verde;
+				padding: 10px 50px 10px 50px;
+				margin-top: 40px;
+				@include fuenteYcolor();
+			}
+		}
+	}
 }
 .fifth-section{
 	background-image: url("../../dist/img/bg2.jpg");
 	height: 700px;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
