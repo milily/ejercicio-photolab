@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
-
+body{
+	background-color: $gris-fondo;
+}
 .first-section{
 	background-image: url("../../dist/img/bg1.jpg");
 	height: 650px;
@@ -41,11 +43,33 @@
 				@include fuenteYcolor();
 			}
 			button{
-				background-color: $verde;
-				border-color: $verde;
-				padding: 10px 50px 10px 50px;
-				margin-top: 40px;
+				@include boton();
 				@include fuenteYcolor();
+			}
+		}
+	}
+}
+/* RAPPRESENT YOUR LIFE WITH SIMPLE PHOTO */
+.second-section{
+	background-color: $gris-fondo;
+	background-image: url("../../dist/img/hand.png");
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 100px 50px 100px 70px;
+	.row{
+		div{
+			h4{
+				font-size: 20px;
+				font-weight: bold;
+				@include fuenteYcolordos();
+			}
+			p{
+				font-family: $font-archivo;
+			}
+			button{
+				@include fuenteYcolor();
+				@include boton();
 			}
 		}
 	}

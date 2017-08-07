@@ -7,3 +7,14 @@
 	color: $blanco;
 	font-family: $font-archivo;
 }
+@mixin boton(){
+	background-color: $verde;
+	border-color: $verde;
+	padding: 10px 50px 10px 50px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+@mixin fuenteYcolordos{
+	font-family: $font-archivo;
+	color: $verde;
+}
