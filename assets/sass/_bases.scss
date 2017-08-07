@@ -102,6 +102,26 @@ body{
 		}
 	}
 }
+/* OUR COMMUNITY */
+.fourth-section{
+	padding: 120px 50px 120px 70px;
+	.row{
+		div{
+			h4{
+				font-size: 20px;
+				font-weight: bold;
+				font-family: $font-archivo;
+				color: $gris;
+				margin-top: 30px;
+				padding-right: 80px;
+			}
+			p{
+				font-family: $font-archivo;
+				padding-right: 80px;
+			}
+		}
+	}
+}
 .fifth-section{
 	background-image: url("../../dist/img/bg2.jpg");
 	height: 700px;
