@@ -74,6 +74,34 @@ body{
 		}
 	}
 }
+/* DESIGN */
+.third-section{
+	background-color: $blanco;
+	.row{
+		div{
+			img{
+				margin-left: 90px;
+				padding-top: 80px;
+			}
+		}
+		div{
+			h4{
+				margin-top: 130px;
+				margin-bottom: 50px;
+				font-size: 20px;
+				font-weight: bold;
+				@include fuenteYcolordos();
+			}
+			p{
+				font-family: $font-archivo;
+			}
+			button{
+				@include fuenteYcolor();
+				@include boton();
+			}
+		}
+	}
+}
 .fifth-section{
 	background-image: url("../../dist/img/bg2.jpg");
 	height: 700px;
