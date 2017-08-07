@@ -156,3 +156,32 @@ body{
 		}
 	}
 }
+/* DOWNLOAD IT */
+.sixth-section{
+	background-color: $gris-fondo;
+	padding: 60px 50px 60px 70px;
+	.row{
+		div{
+			h3{
+				font-size: 20px;
+				font-weight: bold;
+				font-family: $font-archivo;
+				color: $gris;
+				margin-top: 30px;
+				padding-right: 80px;
+			}
+			p{
+				font-family: $font-archivo;
+				padding-right: 80px;
+			}
+		}
+	}
+	.row{
+		div{
+			button{
+				@include fuenteYcolor();
+				@include boton();
+			}
+		}
+	}
+}
